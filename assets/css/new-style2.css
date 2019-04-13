@@ -1,0 +1,1091 @@
+.temp {
+    font-size: 12px;
+}
+
+.sideNav {
+    border: 1px solid #ededed;
+}
+
+.forTitle {
+    color: #005291;
+    font-weight: 500;
+}
+
+#selnew {
+    height: 46px;
+}
+
+.myAddressDiv {
+    border: 1px solid #ececec;
+    padding: 20px 30px 30px 6px;
+    margin: 20px 0px;
+}
+
+.questionnare-main {
+    padding: 42px 0;
+}
+
+input[type="radio"].radiobtn {
+    position: relative;
+    display: inline;
+    /* padding: 6px; */
+    margin: 10px;
+    width: 25px;
+    height: 15px;
+    right: 0;
+}
+
+.forContainer.row {
+    padding-top: 15px;
+}
+
+ul.password-content li {
+    position: relative;
+    color: #7c7c7c;
+    font-size: 13px;
+    padding: 0 0 9px 15px;
+}
+
+ul.password-content {
+    margin: 70px 0 0 0;
+
+}
+
+ul.password-content li .count {
+    position: absolute;
+    left: 0px;
+}
+
+.container.questionnare {
+    background: #fff;
+    border: #d7d7d7 solid 1px;
+    padding: 34px;
+    -webkit-box-shadow: 8px 7px 20px 0px rgba(219, 219, 219, 0.76);
+    -moz-box-shadow: 8px 7px 20px 0px rgba(219, 219, 219, 0.76);
+    box-shadow: 8px 7px 20px 0px rgba(219, 219, 219, 0.76);
+}
+
+select.input-lg {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    /* no standardized syntax available, no ie-friendly solution available */
+}
+
+select + i.fa {
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+    /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+    pointer-events: none;
+    /* everything after this is just to cover up the original arrow */
+    /* (for browsers that don't support the syntax used above) */
+    background-color: #fff;
+    padding-right: 5px;
+}
+
+.questionnare > h4 {
+    font-weight: 600;
+    margin: 0 0 25px 0;
+    color: #333;
+}
+
+.questionnare > div {
+    margin: 10px 0px;
+    display: block;
+}
+
+.questionnare > div > div > div.question {
+    border: 1px solid #ededed;
+    vertical-align: middle;
+    min-height: 56px;
+    padding: 15px 0 0 25px;
+}
+
+.btnInsideTable {
+    width: 100%;
+    text-align: center;
+}
+
+.questionnare > p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #265099;
+    margin: 0 0 30px 0;
+}
+
+.questionnare > p > span {
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.myAddressDivHead > div > h6 {
+    text-align: left;
+    font-weight: bold;
+    margin: 5px 0px;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.editGreen2 {
+    background: #01b14f;
+    padding: 7px 30px;
+    color: white;
+    width: 50%;
+    margin: 0px 0px 0px 20px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.deleteBlue2 {
+    background: #1e4fab;
+    padding: 7px 15px;
+    width: 50%;
+    color: white;
+    font-size: 12px;
+}
+
+.editGreen {
+    background: #01b14f;
+    padding: 7px 30px;
+    color: white;
+    width: 100%;
+    /*margin: 0px 0px 0px 20px;*/
+    /*margin-right: 10px;*/
+    font-size: 12px;
+}
+
+.deleteBlue {
+    background: #1e4fab;
+    padding: 7px 15px;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+
+.myAddressDivHead > div > p {
+    line-height: 22px;
+    text-align: left;
+    font-size: 12px;
+    padding: 0px 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.questionariesPrecNext {
+    text-align: center;
+}
+
+.questionariesPrecNext > div {
+    display: inline;
+}
+
+.myAddressDiv > p {
+    color: #6d6d6d;
+    font-size: 12px;
+    margin: 10px 20px;
+}
+
+.myAddressDiv > p > a {
+    color: #22597f;
+}
+
+.myAddressDiv > hr {
+    margin: 25px 0;
+}
+
+.myAddressDiv > h6 {
+    font-weight: bolder;
+    margin: 10px 20px 20px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.questions-main {
+    text-align: center;
+}
+
+.questions-main li {
+    display: inline-block;
+    margin: 0 10px 20px;
+}
+
+.questions-main li a {
+    width: 200px;
+    height: 210px;
+    color: #333 !important;
+    border-radius: 10px;
+    background: #fff;
+    border: #d7d7d7 solid 1px;
+    text-align: center;
+    display: block;
+    line-height: 210px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+}
+
+.questions-main li a figure {
+    height: 172px;
+}
+
+.questions-main li a p {
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+}
+
+.questions-main li a figure img {
+    position: relative;
+    top: -12px;
+}
+
+.questions-main li.active a:after {
+    width: 32px;
+    height: 32px;
+    content: "";
+    background: url("../img/rounded-tick.png") no-repeat;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 99;
+}
+
+.questions-main li a:hover {
+    color: inherit;
+}
+
+.myAddressDiv > h5 {
+    font-weight: bolder;
+    margin: 25px 20px 20px;
+}
+
+.myAddressDivHead > div.borderBoxs {
+    /*border: 1px solid #f1eeee;*/
+    padding: 0px 10px;
+}
+
+.myAddressDivHead > div > div > div > input, select {
+    background: transparent !important;
+    height: 20px;
+    font-size: 12px;
+    margin: 3px 18px;
+}
+
+.forContainer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 1px solid #ededed;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.forContainer2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 0px solid #ededed;
+    margin-top: 20px;
+
+}
+
+.tableHead > thead {
+    background: #f2f2f0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    border-color: #f2f2f2;
+}
+
+.link-blue {
+    color: #5a84b4;
+    text-decoration: underline;
+}
+
+.orderFirst {
+    width: 120px;
+}
+
+.tableHead > tbody {
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tableHead > tbody > tr > td {
+    padding: 20px 5px;
+}
+
+.actionTable {
+    border: 0px !important;
+}
+
+.mainDivAccountDetail {
+    margin: 0px 10px;
+}
+
+.mainDivAccountDetail > div > div > input, select {
+    background: #e9edf0;
+}
+
+.accTitle {
+    color: #3e3e3e;
+    font-weight: bold;
+    margin: 10px 0px 20px;
+}
+
+.pwdTitle {
+    color: #4b4b4b;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.formChangePassword {
+    margin: 0px 10px;
+}
+
+.formChangePassword2 {
+    margin: 0px 6px;
+}
+.textCenter {
+    text-align: center;
+}
+
+.accountDetailSelect {
+    height: 46px !important;
+    margin: 0px;
+}
+
+.pd-r-0 {
+    padding-right: 0px;
+}
+
+.pd-l-0 {
+    padding-left: 0px;
+}
+
+.recommendWrapper {
+    justify-content: center;
+}
+
+.recommend {
+    margin: 7px 0px;
+}
+
+.questionaries-indicator {
+    background: #fff;
+    text-align: center;
+    padding: 15px 0 30px 0;
+}
+
+.questionaries-indicator ul li {
+    display: inline-block;
+    margin: 0 118px;
+}
+
+.questionaries-indicator ul li a span {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #979695;
+    display: block;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.questionaries-indicator ul li a:hover {
+    color: #393d40;
+}
+
+.questionaries-indicator ul li a {
+    color: #393d40;
+    font-size: 10px;
+}
+
+.questionaries-indicator ul li.active a span {
+    background: #020007;
+}
+
+.text-center.btn-wrapper {
+    margin: 34px 0 0 0;
+}
+
+.textCenter > button {
+    background-color: #32b542;
+    border: none;
+    width: 25%;
+    font-weight: 600;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.textCenter > div > button {
+    background-color: #32b542;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.sideNav > a > li {
+    border-bottom: 1px solid #ededed;
+    color: #030303;
+    font-size: 12px;
+    padding: 12px 10px 12px 30px;
+    font-weight: 600;
+
+}
+
+.sideNav > a > li i {
+    margin: 0 4px 0 0;
+}
+
+.sideNav > a > li.active {
+    background: #f0f3f8;
+    border-left-style: solid;
+    border-left-color: #214f9a;
+    border-left-width: 5px;
+    padding: 12px 10px 12px 25px;
+}
+
+.sideNav > li {
+    border-bottom: 1px solid #ededed;
+    padding: 20px 13px;
+    color: #030303;
+}
+
+.sideNav > li > div > a {
+    color: white;
+    margin: 0px;
+}
+
+.blueBtn {
+    background: #264f9f;
+    padding: 10px 50px;
+    display: block;
+    margin: 0px 10px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.backgroundInsideSideNav {
+    background: #f2f2f0;
+    margin: 0px;
+    padding: 20px;
+}
+
+.backgroundInsideSideNav > h6 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.backgroundInsideSideNav > p {
+    color: #9e9e9c;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.grnBtn {
+    text-align: center;
+    padding: 10px 10px;
+    background: #01b14f;
+    color: white;
+    display: block;
+    margin: 0px 5px;
+    font-size: 14px;
+    /*font-weight: 600;*/
+}
+
+.grnBtn:hover {
+    color: #fff;
+}
+
+.contacttech > a {
+    color: #6c8aa4;
+    text-align: center;
+    display: block;
+    padding: 20px 10px;
+    margin: 0px 10px;
+}
+
+.contacttech > h6 {
+    color: #616161;
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    font-size: 13px;
+    padding: 20px 28px;
+    margin: 0px 10px;
+}
+
+.sideNav > a > li > img {
+    width: 25px;
+    margin: 0px 15px;
+}
+
+.sideNav > a > li i {
+    font-size: 24px;
+    vertical-align: sub;
+    color: #464444;
+}
+
+.contacttech > img {
+    margin: 10px auto 0px;
+    display: block;
+    width: 50px;
+}
+
+.contacttech > p {
+    color: #616161;
+    text-align: center;
+    display: block;
+    padding: 0px 28px;
+    margin: 0px 10px;
+    font-size: 12px;
+}
+
+.mainContent > h4 {
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.mainContent > h6 {
+    color: #264f9f;
+    font-weight: 700;
+    margin: 2px 0px;
+}
+
+.mainContent > p > a {
+    color: #9f9f9f;
+    font-size: 9px;
+}
+
+.mainContent > p > a.edit-profile {
+    font-size: 11px;
+}
+
+.mainContent > p {
+    margin: 0px;
+    line-height: 13px;
+}
+
+.removeBottomBorder {
+    border-bottom-width: 0px;
+}
+
+.past-orders-details .accTitle {
+    color: #264f9f;
+}
+
+.order-details-wrapper.row {
+    padding: 0 35px;
+}
+
+.order-details-wrapper .selectcheck {
+    height: 28px !important;
+    background: #f8f8f8 !important;
+
+}
+
+.date-details {
+    display: block;
+    font-size: 13px;
+    padding: 5px 0 20px 0;
+    color: #000;
+}
+
+ul.total-block li {
+    font-size: 15px;
+    padding: 0 0 6px 0;
+    font-weight: 500;
+}
+
+ul.total-block li i {
+    font-style: normal;
+}
+
+ul.total-block li:last-child {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0 0 0;
+}
+
+.order-details-wrapper .selectcheck.disabled {
+    cursor: not-allowed;
+}
+
+.past-orders-details .cart-summary-wrapper .card-footer .chooseDivAdd2 {
+    margin: 0px;
+}
+
+.order-details-wrapper .accTitle {
+    margin: 10px 0px 0;
+}
+
+.formChangePassword > input {
+    border: 1px solid #ededed;
+    background: transparent;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+.myAccountDiv {
+    border: 1px solid #ececec;
+    padding: 20px 0;
+    margin: 20px 0 0 0;
+}
+
+.myAccountDiv > h5 {
+    font-weight: bold;
+    margin: 23px;
+}
+
+.myAccountDiv > div {
+    justify-content: space-between;
+}
+
+.myAccountDiv > div > div {
+    border: 1px solid #ececec;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+table.table.table-responsive.table-bordered.tableHead.expand-table {
+    text-align: center;
+}
+
+.expand-table .link-blue {
+    cursor: pointer;
+    color: #5a84b4 !important;
+    text-decoration: underline !important;
+}
+
+.expand-td {
+    display: none;
+    transition: all 0.5s ease;
+    text-align: left;
+}
+
+.expand-td.expand {
+    display: contents;
+    transition: all 0.5s ease;
+}
+
+.expand-td ul li a i {
+    color: #264f9f;
+    font-size: 15px;
+    padding: 0 4px 0 0;
+}
+
+.expand-td ul li {
+    padding: 0 0 8px 0;
+}
+
+.expand-td ul {
+    padding: 0 0 0 10px;
+}
+
+.order-details-wrapper .count-po {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    padding: 0 0 0 20px;
+}
+
+.myAccountDiv > div > div > a {
+    padding: 20px 0px;
+    display: table;
+}
+
+.myAccountDiv > div > div > a > img {
+    width: 100px;
+    display: inline-block;
+    margin: 0px 1px;
+    margin-left: 30px;
+}
+
+.myAccountDiv > div > div > a > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myAccountDiv > div > div > a > div > h6 {
+    font-weight: bold;
+    color: #333;
+    margin: 0px;
+}
+
+.myAccountDiv > div > div > a > div > p {
+    margin: 0px;
+    color: #a7a7a7;
+}
+
+.btnTableWidth {
+    display: block;
+    text-align: center;
+    width: 45%;
+    font-weight: 600;
+}
+
+.radio-button-wrapper {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #5a5a5a;
+    font-weight: 400;
+    padding-top: 1px;
+}
+
+/* Hide the browser's default radio button */
+.radio-button-wrapper input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio-button-wrapper .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: #221f1f solid 2px;
+}
+
+.questionnare .btn-wrapper .common-green-btn2 {
+    margin: 0 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.questions-main.width-650 {
+    margin: 0 auto;
+}
+
+/*.expand-table tr{
+    position: relative;
+}*/
+
+.questions-main.width-650 li {
+    margin: 0 10px 20px;
+}
+
+.deleteBlue:hover,
+.editGreen:hover,
+.common-green-btn2:hover {
+    color: #fff !important;
+}
+
+.title-recomendation {
+    margin: 30px 0 40px 0;
+}
+
+.forContainer .tableHead tbody td a:hover {
+    color: #0056b3;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-button-wrapper:hover input ~ .checkmark {
+    background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-button-wrapper input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-button-wrapper input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-button-wrapper .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #221f1f;
+}
+
+.button-box a:hover {
+    color: #fff;
+}
+
+.container.questionnare p > img {
+    width: 20px;
+    vertical-align: sub;
+    margin: 0 4px 0 0;
+}
+
+.c-breadcrumb {
+    background: #fbfbfb;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 3px;
+    border: #e4e4e4 solid 1px;
+}
+
+.c-breadcrumb ol.breadcrumb {
+    padding: 2px 10px;
+}
+
+@media (max-width: 1199px) {
+
+    .sideNav > a > li.active {
+        padding: 12px 10px 12px 5px;
+    }
+
+    .sideNav > a > li {
+        padding: 12px 10px 12px 10px;
+    }
+
+    .myAccountDiv > div > div > a > img {
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+
+    .myAccountDiv > div > div > a {
+        padding: 20px 0px;
+        display: block;
+    }
+
+    .myAccountDiv > div > div > a > div {
+        display: block;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .button-box a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin: 0 0 6px 15px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .order-details-wrapper .count-po {
+        padding: 0px;
+    }
+
+    .past-orders-details .single-details {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    .past-orders-details {
+        text-align: center;
+    }
+
+    .myAccountDiv {
+        padding: 10px 30px;
+    }
+
+    .myAccountDiv > h5 {
+        margin: 23px 0 10px;
+    }
+
+    .mobile-view {
+        margin: 0 0 30px 15px;
+    }
+
+    .myAddressDiv {
+        padding: 0px;
+        border: none;
+        margin: 0px;
+    }
+
+    .button-box {
+        padding: 0 0 0 15px;
+        margin: 0 0 20px 0;
+    }
+
+    .button-box a {
+        display: inline-block;
+        text-align: center;
+        margin: 0 0 0 5px;
+        max-width: 130px;
+    }
+
+    .textCenter > button {
+        width: auto;
+    }
+
+    .forContainer {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .forContainer2 {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .btnInsideTable a {
+        display: inline-block;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .questionnare > p {
+        font-size: 16px;
+
+    }
+
+    ul.password-content {
+        margin: 32px 10px 0 10px;
+    }
+
+    .formChangePassword {
+        margin: 0;
+        max-width: 472px;
+        overflow-x: auto;
+    }
+
+    .formChangePassword2 {
+        margin: 0;
+        max-width: 472px;
+        overflow-x: auto;
+    }
+
+    .questionnare > div {
+        margin: 0 0px;
+        display: block;
+    }
+
+    .container.questionnare > .row .col-md-6 {
+        padding: 0;
+    }
+
+    .questionnare > div > div > div.question {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .questionnare .btn-wrapper .common-green-btn2 {
+        margin: 0 5px;
+        min-width: 230px;
+        margin: 0 auto 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .button-box a {
+        display: block;
+        text-align: center;
+        margin: 0 0 7px 0;
+        max-width: 100%;
+    }
+
+    .button-box {
+        padding: 0 0 0 0;
+        margin: 0 0 20px 0;
+    }
+
+}
+
+.blue {
+    color: #4fc1f0 !important;
+}
+
+.last-bar:after {
+    visibility: hidden;
+}
+
+li a {
+    cursor: pointer;
+}
+
+.LinkStyle {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.pad0 {
+    padding: 0px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+.datepicker {
+    width: 180px;
+    margin: 0 20px 20px 20px;
+}
+
+.datepicker > span:hover {
+    cursor: pointer;
+}
+
+.datepicker td, .datepicker th {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.padGetData{
+    margin: 0 0 20px;
+
+}
+
+.padGetData > a{
+    color:white;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #00B451;
+}

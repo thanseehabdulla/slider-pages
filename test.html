@@ -1,0 +1,149 @@
+<html>
+
+<head><title>test</title>
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+
+</head>
+
+
+<body>
+
+
+<div class="pages">
+<div class="parent">
+
+    <div id="page0" class="animate-fading">
+        page1
+
+        <h1>I am raising fund for...</h1>
+
+    </div>
+    <div id="page1" class="animate-fading">
+        page2
+        <h1>Provide a title and description for your payment</h1>
+    </div>
+
+    <div id="page2" class="animate-fading">
+        page3
+        <h1>How much fund you would like to raise</h1>
+    </div>
+
+    <div id="page3" class="animate-fading">
+        page4
+        <h1>Add a picture and video of your cause</h1>
+    </div>
+
+    <div id="page4" class="animate-fading">
+        page5
+        <h1>Choose a location where you are running a campaign</h1>
+    </div>
+
+    <div id="page5" class="animate-fading">
+        page6
+        <h1>Tell Contributer more about yourr campaign</h1>
+
+    </div>
+
+
+</div>
+
+    <div class="slider">
+        <ol id="slider">
+            <li onclick="changePageSlider(0,false)" id="item0" class="slider-item "></li>
+            <li onclick="changePageSlider(1,false)" id="item1" class="slider-item current"></li>
+            <li onclick="changePageSlider(2,false)" id="item2" class="slider-item current"></li>
+            <li onclick="changePageSlider(3,false)" id="item3" class="slider-item current"></li>
+            <li onclick="changePageSlider(4,false)" id="item4" class="slider-item current"></li>
+            <li onclick="changePageSlider(5,false)" id="item5" class="slider-item current"></li>
+        </ol>
+    </div>
+
+
+    <button id="nextBtn" onclick="changePage()">Next</button>
+    <button id="redirectBtn" onclick="redirectPage()">Redirect</button>
+</div>
+<div class="result">
+<p>we are in result page</p>
+</div>
+
+
+<script>
+
+
+
+        let page = 0
+        let pages = ['page0','page1','page2','page3','page4','page5']
+        let items = ['item0','item1','item2','item3','item4','item5']
+
+        for(let i = 0; i< pages.length; i++){
+            if(page !== i){
+                document.getElementById(pages[i]).style.display = "none";
+            }
+        }
+
+        document.getElementById("redirectBtn").style.display = "none";
+
+        function changePageSlider(page_ref,stats){
+            temp = page
+            page = page_ref;
+            if (temp > page || stats) {
+                for (let k = 0; k < items.length; k++) {
+                    if (!document.getElementById(items[k]).classList.contains("current"))
+                        document.getElementById(items[k]).classList.add("current")
+                }
+
+                document.getElementById(items[page]).classList.remove("current")
+            }
+            for(let i = 0; i< pages.length; i++) {
+                if (temp > page) {
+                    if (page !== i) {
+                        document.getElementById(pages[i]).style.display = "none";
+                    } else {
+                        document.getElementById(pages[i]).style.display = "block";
+                    }
+                }
+            }
+        }
+
+        function changePage(){
+            page = page+1;
+            changePageSlider(page,true)
+                for (let i = 0; i < pages.length; i++) {
+                    if (page !== i) {
+                        document.getElementById(pages[i]).style.display = "none";
+                    } else {
+                        document.getElementById(pages[i]).style.display = "block";
+                    }
+                }
+            if(page === pages.length - 1) {
+                document.getElementById("nextBtn").style.display = "none";
+                document.getElementById("redirectBtn").style.display = "block";
+            }else{
+                document.getElementById("nextBtn").style.display = "block";
+                document.getElementById("redirectBtn").style.display = "none";
+            }
+
+        }
+
+        function redirectPage(){
+            // location.href = "#"
+            page = 0
+            changePage()
+        }
+
+
+
+
+
+</script>
+
+</body>
+</html>

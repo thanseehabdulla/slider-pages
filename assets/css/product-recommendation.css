@@ -1,0 +1,33 @@
+@keyframes example {
+    0%,100%,20%,50%,80%{
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+    }
+    40%{
+        -webkit-transform:translateX(10px);
+        transform:translateX(10px);
+    }
+    60%{
+        -webkit-transform:translateX(5px);
+        transform:translateX(5px);
+    }
+}
+
+.know-more::after{
+    /* content: url('../img/icon-arrow.svg'); */
+    content: "";
+    font-size: 3rem;
+    font-family: OUA;
+    /* background-image: url('../img/icon-arrow.svg'); */
+    /* -webkit-animation-name: bounce; */
+    animation-name: example;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 16px;
+}

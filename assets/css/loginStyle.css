@@ -1,0 +1,248 @@
+.login-area {
+    background-color: #f1eeee;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.login-area .flex-center {
+
+    display: inline-block;
+    width: 40%;
+}
+
+.login-area .register-placeholder {
+    background: #005291;
+    padding: 3.5em;
+    color: #fff;
+}
+
+.login-area .login-form {
+    width: 100%;
+    background: #FFF;
+    padding: 0.5em
+}
+
+.myaccountWidth {
+    width: 30%;
+}
+
+.readmore{
+    display: none;
+}
+
+.detailpara {
+    text-align: justify;
+    line-height: 21px;
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.accountreg {
+    text-align: center;
+    font-size: 26px;
+    color: #264f9d;
+    font-weight: 500;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-area .login-form {
+        width: 100%;
+        background: #FFF;
+        padding: 2.5em
+    }
+
+    .login-area .flex-center {
+
+        display: inline-block;
+        width: 100%;
+    }
+
+    .myaccountWidth {
+        width: 100%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .login-area .login-form {
+        width: 100%;
+        background: #FFF;
+        padding: 2.5em
+    }
+
+    .login-area .flex-center {
+
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .login-area .login-form {
+        width: 100%;
+        background: #FFF;
+        padding: 2.5em
+    }
+
+    .login-area .flex-center {
+
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .login-area .login-form {
+        width: 100%;
+        background: #FFF;
+        padding: 2.5em
+    }
+
+    .login-area .flex-center {
+
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .login-area .login-form {
+        width: 100%;
+        background: #FFF;
+        padding: 0.5em
+    }
+
+    .marginhr {
+        margin: 20px 0px;
+    }
+
+    .imgflex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .login-area .flex-center {
+
+        display: inline-block;
+        width: 40%;
+    }
+
+    .sign2 {
+        padding: 20px 60px 10px 40px
+    }
+
+}
+
+.login-area .signup-inside-div {
+    text-align: center; 
+    font-size: 13px;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    padding: 20px;
+}
+
+.login-area input[type=checkbox] {
+    width: auto;
+    height: 16px;
+    margin: 3px;
+    margin-top:5px;
+}
+
+.login-area .signup-inside-div.signup-check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.login-area .check-label {
+    display: block;
+    text-align: left;
+    position: relative;
+    padding-left: 19px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.login-area .check-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.login-area .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #FFF;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.login-area .check-label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.login-area .check-label input:checked ~ .checkmark {
+    background-color: #FFF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.login-area .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.login-area .check-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.login-area .check-label .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+    border: solid #005596;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+select {
+    background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    /* and then whatever styles you want*/
+    padding: 5px;
+    padding-right: 5%;
+}
+
+.g-recaptcha > div {
+    margin: 0px auto;
+}

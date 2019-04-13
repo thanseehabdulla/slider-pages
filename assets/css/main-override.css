@@ -1,0 +1,414 @@
+@font-face {
+    font-family: 'OScondensedBold';
+    font-family: 'MyWebFont';
+    src: url('fonts/OpenSans-CondensedBold.eot');
+    src: url('fonts/OpenSans-CondensedBold.eot#iefix') format('embedded-opentype'), url('fonts/OpenSans-CondensedBold.woff2') format('woff2'), url('fonts/OpenSans-CondensedBold.woff') format('woff'), url('fonts/OpenSans-CondensedBold.ttf') format('truetype'), url('fonts/OpenSans-CondensedBold.svg') format('svg');
+}
+
+/*Infographic Item in Editor*/
+.c-lifecycle .c-lifecycle_item.infographic-item-editor {
+    margin-bottom: 260px;
+}
+
+.c-product-sub-navigation-title .c-product-sub-navigation-title-link{
+    color: #6ccad8;
+}
+
+.c-product-sub-navigation-title .c-product-sub-navigation-title-link:hover{
+    text-decoration: underline;
+    color: #6ccad8;
+}
+
+.c-product-sub-navigation-title .c-product-sub-navigation-title-link-mobile{
+    color: #6ccad8;
+    padding: 0 !important;
+}
+
+/*Footer with 6 links configuration for desktop*/
+@media (min-width: 768px) {
+    .c-footer-utility .c-footer-utility_item {
+        width: auto;
+        text-align: center;
+        padding-right: 37px;
+        min-width: 0;
+    }
+
+    .c-footer-utility .c-footer-utility_item:first-of-type {
+        width: auto;
+        text-align: center;
+        min-width: 0;
+    }
+
+    .c-footer-utility .c-footer-utility_link {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .c-footer-utility .c-footer-utility_item {
+        padding-right: 37px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .c-footer-utility .c-footer-utility_item {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .c-footer-utility .c-footer-utility_item {
+        padding-right: 10px;
+    }
+}
+
+/*Hide infographic even/odd*/
+.c-lifecycle_items .c-lifecycle_item:nth-child(even) .info-text-right{
+    display: none;
+}
+
+.c-lifecycle_items .c-lifecycle_item:nth-child(odd) .info-text-left{
+    display: none;
+}
+
+.c-hero-area .c-hero-area_left {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.c-callout_content .btn-callout {
+	margin-top: 10px;
+}
+
+.c-content-top-img .c-content-top-img-image {
+    width: auto;
+}
+
+.c-general-button {
+    font-size: 18px;
+    padding: 7px 50px;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.c-carousel-flexible-area .c-carousel-flexible-area-caption-text {
+    width: 100%;
+}
+
+.btn-blog-navigate {
+    margin: auto;
+    width: 50%;
+}
+
+.c-primary-navigation .navbar-nav:before {
+    content: none;
+}
+
+/*Blog Feature In Right Rail Sublayout Fixes*/
+.c-blog-feature-content_mobile {
+	margin-left: 0;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_autor-photo {
+    float: left;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_autor-info {
+    width: 75%;
+    float: left;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_autor {
+    margin: 0;
+    color: #7f7f83;
+    font-size: 16px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_article-comments {
+    padding-top: 7px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_comment-icon {
+    float: left;
+    color: #ccd0cc;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_comment {
+    width: 90%;
+    float: left;
+    margin-left: 10px;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_comment-text-normal {
+    margin: 0;
+    color: #ccd0cc;
+    font-size: 16px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.c-blog-feature-content_mobile .c-blog-feature-content_comment-text-italic {
+    font-style: italic;
+}
+
+.c-blog-feature-content_left .c-blog-feature-content_button {
+    width: 315px;
+    display: block;
+}
+
+.c-blog-feature-content_button.btn.btn-green{
+    width: 315px;
+    display: block;
+}
+/*End Blog Feature*/
+
+.c-back-to-top .c-back-to-top_arrow {
+    background: none;
+    width: 15px;
+    height: 15px;
+	display: inline-block;
+	margin-top: -3px;
+}
+
+.c-footer .c-footer_connect {
+    background: #f3f3f2;
+	background-size: cover;
+}
+
+.c-header-tagline .c-header-tagline-logoCopy{
+    background: none;
+    text-align: left;
+    color: #2670aa;
+    font-family: OScondensedBold;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+@media only screen and (max-width:768px) {
+    .c-header-tagline .c-header-tagline-logoCopy{
+        width: 155px;
+        margin-top: 0;
+    }
+
+    .c-primary-navigation .c-primary-navigation_challenges .c-primary-navigation_challeges-height:first-child{
+        height: 250px;
+    }
+
+	.c-footer .c-footer_connect {
+		/* background: url(../images/connect-area/connect-area-bg_mob.jpg) no-repeat; */
+        background-size: cover;
+	}
+}
+
+.c-footer .c-footer_connect .c-connect-area_title {
+	text-transform: none;
+}
+
+.c-lifecycle .c-lifecycle_line:after {
+	background: url(../images/lifecycle/angle-right.png) no-repeat;
+}
+
+.c-lifecycle .c-lifecycle_panel.black-panel {
+    background: url(../images/lifecycle/lifecycle-black.png) no-repeat
+}
+
+.c-lifecycle .c-lifecycle_panel.blue-lt-panel {
+    background: url(../images/lifecycle/lifecycle-blue-lt.png) no-repeat
+}
+
+.c-lifecycle .c-lifecycle_panel.blue-panel {
+    background: url(../images/lifecycle/lifecycle-blue.png) no-repeat
+}
+
+.c-lifecycle .c-lifecycle_panel.gray-panel {
+    background: url(../images/lifecycle/lifecycle-gray.png) no-repeat
+}
+
+@media only screen and (max-width:992px) {
+	.c-lifecycle .c-lifecycle_line:after {
+		background: url(../images/lifecycle/angle-down.png) no-repeat;
+	}
+}
+
+.c-footer-utility.bottom-links .c-footer-utility_link {
+	text-transform: none;
+}
+
+.c-event-list-item .col-xs-12.col-sm-4 .fa{
+    display: table-cell;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.c-event-list-item .col-xs-12.col-sm-4 .c-event-list-event-detail-copy{
+    display: table-cell;
+}
+
+.p-homepage .p-homepage-knowledge-section {
+	background-image: none !important;
+}
+
+.CoveoSearchbox .magic-box {
+	border: none;
+	border-radius: 0;
+}
+
+	.CoveoSearchbox .magic-box .magic-box-input > input {
+		border: none;
+		outline: none;
+		box-shadow: none;
+		color: #555;
+		font-family: inherit;
+		font-size: 18px;
+        font-weight: bold;
+        
+	}
+
+		.CoveoSearchbox .magic-box .magic-box-input > input::-webkit-input-placeholder {
+			color: #6ecad8;
+			font-size: 12px;
+			font-family: arial;
+			text-transform: uppercase;
+		}
+
+.CoveoSearchButton {
+	border: none;
+	border-radius: 0;
+}
+
+.c-footer-site-nav .c-footer-site-nav_link:visited {
+	color: #555 !important;
+}
+
+.prq-form .btn-green{
+    margin-top: 20px
+}
+
+.c-form .horizontal-radio-buttons .radio{
+    display: inline-block;
+    padding-right: 7px;
+}
+
+.c-form fieldset{
+    margin-bottom: 30px;
+}
+
+.c-form .form-group .col-sm-4.control-label{
+    text-align: right;
+    font-weight: bold;
+}
+#loa-form-product-table{
+    margin-bottom: 15px;
+    width: 100%;
+}
+#loa-form-product-table .col-sm-12{
+    padding-left: 0;
+}
+#loa-form-product-table th{
+    padding-bottom: 5px;
+}
+#loa-form-product-table .red-asterisk{
+    color: #d00;
+    font-weight: bolder;
+    font-size: 14px;
+}
+#loa-form-product-table select{
+    font-size: 12px;
+}
+#loa-form-product-table label{
+    display: none;
+}
+.loa-form .loading-icon{
+    display: none;
+    padding-left: 2px;
+}
+/*Header Positioning*/
+.c-header-tagline .c-header-tagline-logoCopy {
+    margin-top: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .c-header-tagline .c-header-tagline-logoCopy{
+        width: 155px;
+        margin-top: -5px;
+    }
+}
+
+/*Sup tag modification*/
+.breadcrumb sup {
+    top: -0.9em;
+}
+
+.c-product-sub-navigation-title-link sup {
+    top: -0.9em;
+}
+
+.c-product-list-container .c-product-list-container-title sup {
+    font-size: 12px;
+}
+
+.col-md-8 sup {
+    top: -0.9em;
+}
+
+.col-xs-12 sup {
+    top: -0.9em;
+}
+
+@media only screen and (min-width:992px) {
+    .two-col-sub-layout .container {
+        width: 100%;
+    }
+}
+ @media screen and (min-width: 768px) and (max-width:768px) {
+     .c-primary-navigation .nav>li>a:focus, .c-primary-navigation .nav>li>a:hover {
+        background-color: transparent;
+    }
+     .nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+ }
+
+@media screen and (min-width: 769px){
+     /*Knowledge Center Bug (#557) Fix */
+    .c-knowledge {
+	    top: -43px;
+    }
+    .col-md-8 .btn-green{
+        max-width: 360px;
+    }
+}
+
+/*Blog Post Filtering*/
+#BlogPostFilteringTemplates{
+    display: none;
+}
+ #blog-post-search-display{
+     margin-bottom: 40px;
+ }
+ #blog-post-search-display .CoveoPager{
+     display: block;
+     text-align: center;
+     margin-left: 0px;
+ }
+ #blog-post-search-display .CoveoPager ul{
+     margin-top: 20px;
+ }
+ .c-blog-navigation-bar .c-blog-navigation-bar-select{
+     font-weight: normal;
+ }
+ /*hide the default dropdown arrow in IE*/
+ .c-blog-navigation-bar select::-ms-expand{
+     display: none;
+ }
+ /*It isn't possible to attach a jquery click event to a pseudo element, so hiding the search "button" for now*/
+ .c-blog-navigation-bar .c-blog-navigation-bar-search::after{
+     content: "";
+ }
